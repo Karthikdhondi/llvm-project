@@ -4,6 +4,7 @@
 set(SANITIZER_SOURCES_NOTERMINATION
   sanitizer_allocator.cpp
   sanitizer_common.cpp
+  sanitizer_contiguous_container.cpp
   sanitizer_deadlock_detector1.cpp
   sanitizer_deadlock_detector2.cpp
   sanitizer_errno.cpp
@@ -94,6 +95,7 @@ set(SANITIZER_SYMBOLIZER_SOURCES
   sanitizer_symbolizer_report.cpp
   sanitizer_symbolizer_report_fuchsia.cpp
   sanitizer_symbolizer_win.cpp
+  sanitizer_thread_history.cpp
   sanitizer_unwind_linux_libcdep.cpp
   sanitizer_unwind_fuchsia.cpp
   sanitizer_unwind_win.cpp
